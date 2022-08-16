@@ -1,0 +1,31 @@
+.container {
+    max-width: 600px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    font-size: 30px;
+}
+
+#input_word {
+    font-size: 20px;
+    padding: 10px 20px;
+
+    border-radius: 4px;
+}
+
+#butt {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
+
+    border-radius: 20px;
+}
+
+
+.result {
+    display: flex;
+    gap: 10px;
+}
+
