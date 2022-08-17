@@ -47,7 +47,8 @@ function capsLock(str){
     for(var i = 0; i < strr.length; i++){
 
         var words = strr[i].split("");
-        if(words.every(item => item == item.toUpperCase()) || words.slice(1).every(item => item == item.toUpperCase())){
+        if(words.every(item => item == item.toUpperCase()) ||
+           words.slice(1).every(item => item == item.toUpperCase())){
 
             for( var j = 0; j < words.length; j++){
                 if( words[j] == words[j].toUpperCase()) {
